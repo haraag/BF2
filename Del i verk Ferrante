@@ -1,0 +1,42 @@
+@prefix: bf2: <http://id.loc.gov/ontologies/bibframe.html#>
+@prefix kbv:
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+@prefix rdavoc: <http://www.rdaregistry.info/>
+@prefix mc: <metadatamodelleringgruppens förslag>
+
+
+# Work - Expression
+<http://libris.kb.se/bib/18542105>
+ rdf:resource
+[ a bf2:Work, mc:245$n "Bok 1", mc:245$p "Barndom och tonår",
+bf2:partOf  bf2:work <http:id.kb.se/verkXXX>,
+bf2:title "Min fantastiska väninna"] ;
+
+bf2:languange "swe" ;
+bf2:relatedTo   bf2:expressionOf <http://libris.kb.se/bib/14676300>  @it ;
+##ha - här borde vi kunna få originalverkets titel - om vi inte kan länka till,
+#  mc:originalTitle ###dessutom få till rätt del#
+
+bf2:contributor [a bf2:Agent a bf2:Person <http:xxxxxxxx>, relator:aut ] ;
+bf2:contributor [ a bf2:Agent a bf2:Person <http:wwwwxxxxx>, relator:trl] ;
+mc:500upplaga1 "Första svenska upplaga 2016" ; ##HA borde finns lista att välja fras ifrån##
+
+bf2:Subject <https://libris.kb.se/vs688kvd0tj918j#it> ,
+rdfs:label "Kvinnlig vänskap";
+bf2:Subject rdfs:label "Italien -- Neapel" ; ##Ej auktposter, länka till annat?##
+bf2:GenreForm rdfs:label "Romaner" ;
+
+bf2:ClassificationDdc "853.914" , bf2:edition "23/swe" ;
+bf2:Classification "Hcei.01" , bf2:edition "kssb/8" ;
+
+
+# instanceOfWork #
+a bf2:instanceOfWork a bf2:bookFormat,
+bf2:Extent "335 s." ,  bf2:Dimensions "22 cm",
+bf2:provisionActivity [ a bf2:Publication,   bf2:Place "Stockholm" ,
+ bf2:Agent rdfs:label "Nordstedt", bf2:date "2016" ];
+
+
+
+bf2:adminMetadata [a bf2:AdminMetadata bf2:assigner "BOKR", kbv:modifyingAgency "S"]
+bf2:descriptionLanguage "swe"
