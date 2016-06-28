@@ -1,0 +1,56 @@
+@prefix: bf2: <http://id.loc.gov/ontologies/bibframe.html#>
+@prefix kbv:
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+@prefix rdf:
+@prefix rdavoc: <http://www.rdaregistry.info/>
+@prefix relator: <http://id.loc.gov/vocabulary/relators>
+@prefix mc: <metadatamodelleringgruppens>
+
+
+# work - Expression#
+<http://libris.kb.se/bib/13565870> a rdf:resource, a bf2:Work,
+bf2:title [ a bf2:Title rdfs:label "Geniet", bf2:subTitle rdfs:label "Lars von Tiers liv, filmer och fobier",
+bf2:relatedTo bf2:IsExpressionOf <http:XXXXXX> @da ;
+bf2:Text ;
+
+bf2:contributor [ a bf2:Agent bf2:Person <htpp:wwwwxxx>  relator:aut] ;
+bf2:contributor [ a bf2:Agent bf2:Person <http:wwwwxxxxx>, relator:trl ]
+
+bf2:subject <https://libris.kb.se/1zcfdxnk0jmcskw#it> rdfs:label: "Filmregissörer",
+bf2:genreForm <https://libris.kb.se/vs69hgjd3pskrfq#it> [I posten felaktigt Biografier] ;
+bf2:subject <id.kb.sexxxx/auktposter> rdfs:label "Trier, Lars von, 1956-" ;
+bf2:subject rdfs:label "Regissörer"  mc:ConceptScheme " sfit" ;
+bf2:subject rdfs:label "Biografier", mc:ConceptScheme "sfit" ;
+bf2:subject rdfs:label "Danska dramatiker (prel/S)" mc:preliminarySubject
+[Ämnesordet läggs i fält 653 a och följs av (prel/[sigel]). Borde kunna
+göras bättre] ;
+bf2:subject rdfs:label "Directors", mc:uncontrolledSubject ;
+[Ha NL ej marcmappning -TODO]
+bf2:ClassificationDdc "791.430233092" bf2:edition "23/swe"
+[Ha editionStatement och editionEnumeration - när behövs?]
+bf2:subject rdfs:label "Danmark" [Ha länka till extern tjänst?]
+bf2:note  "Filmografi, personregister" bf2:noteType "504"
+[ Ha eller mc:bibliographyNote som mappas till 504];
+
+
+
+# instanceOfWork#
+a bf2:instanceOfWork <http://libris.xxxx>
+bf2:responsibilityStatement "Nils Thorsen ; översättning: Thomas Andersson",
+bf2:editionStatement "1. uppl.",
+bf2:ProvisionActivity [ a bf2:Publication bf2:Place rdfs:label "Stockholm", bf2:Agent
+rdfs:label "Arkad", bf2:date "2013"] , [Ha vilken datumform?]
+bf2:ProvisionActivity [ a bf2:Manufactor bf2:place "Lettland"] [mc:Printing??];
+bf2:identifiedBy [a bf2:isbn rdf:value "9789186395032" , mc:binding rdfs:label "inb"]
+[Vi behöver diskutera hantering av identifierare] ;
+bf2:Extent "476 s." , bf2:illustrativeContent [a bf2:Illustration  rdfs:label "ill.",]
+bf2:dimensions "23 cm";
+bf2:carrier <id.kb.sexxxx> "unmediated";
+
+
+
+mc:504 "Filmografi, personregister" ;
+bf2:AdminMetadata, BF2:descriptionLanguage, BF2:assigner "BOKR", kbv:modifyingAgency "Sfi" , "S"
+kbv:bibliography "NB" #"042"{ NL       "aboutEntity": "?record",
+      "$a": {"property": "authenticationCode"},
+      "$9": {"addLink": "bibliography", "resourceType": "Organization", "property": "notation"}#
