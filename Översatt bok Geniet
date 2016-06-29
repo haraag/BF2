@@ -16,12 +16,12 @@ bf2:Text ;
 bf2:contributor [ a bf2:Agent bf2:Person <htpp:wwwwxxx>  relator:aut] ;
 bf2:contributor [ a bf2:Agent bf2:Person <http:wwwwxxxxx>, relator:trl ]
 
-bf2:topic <https://libris.kb.se/1zcfdxnk0jmcskw#it> rdfs:label: "Filmregissörer",
+bf2:subject <https://libris.kb.se/1zcfdxnk0jmcskw#it> rdfs:label: "Filmregissörer",
 bf2:genreForm <https://libris.kb.se/vs69hgjd3pskrfq#it> #I posten felaktigt Biografier# ;
-bf2:topic  <id.kb.sexxxx/auktposter> rdfs:label "Trier, Lars von, 1956-" ;
-bf2:topic rdfs:label "Regissörer"  mc:ConceptScheme " sfit" ;
-bf2:topic rdfs:label "Biografier", mc:ConceptScheme "sfit" ;
-bf2:topic rdfs:label "Danska dramatiker (prel/S)",  mc:preliminarySubject
+bf2:subject  <id.kb.sexxxx/auktposter> rdfs:label "Trier, Lars von, 1956-" ;
+bf2:subject rdfs:label "Regissörer"  mc:ConceptScheme " sfit" ;
+bf2:subject rdfs:label "Biografier", mc:ConceptScheme "sfit" ;
+bf2:tsubject rdfs:label "Danska dramatiker (prel/S)",  mc:preliminarySubject
 #Ämnesordet läggs i fält 653 a och följs av (prel/[sigel]). Borde kunna
 göras bättre# ;
 bf2:subject rdfs:label "Directors", mc:uncontrolledSubject ;
