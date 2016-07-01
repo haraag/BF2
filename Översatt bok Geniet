@@ -54,3 +54,37 @@ bf2:AdminMetadata, BF2:descriptionLanguage, BF2:assigner "BOKR", kbv:modifyingAg
 kbv:bibliography "NB" #"042"{ NL       "aboutEntity": "?record",
       "$a": {"property": "authenticationCode"},
       "$9": {"addLink": "bibliography", "resourceType": "Organization", "property": "notation"}#
+      
+      
+000		03851cam a2201021 a 4500
+001		13565870
+003		SE-LIBR
+005		20160602114727.0
+008		121031s2013 sw |||| |00| 0bswe c
+020	 	a 9789186395032q inb
+035	 	a (BOKR)9789186395032
+040	 	a BOKRd Sfid S
+042	 	9 NB
+082	0 4	a 791.4302330922 23/swe
+084	 	a Imab2 kssb/8 (machine generated)
+100	1 	a Thorsen, Nils
+240	1 0	a Geniet.l Svenska
+245	1 0	a Geniet :b Lars von Triers liv, filmer och fobier /c Nils Thorsen ; översättning: Thomas Andersson
+250	 	a 1. uppl.
+260	 	a Stockholm :b Arkad,c 2013e (Lettland)
+300	 	a 476 s. :b ill. ;c 23 cm
+504	 	a Filmografi, personregister
+600	1 4	a Trier, Lars von,d 1956-0 213544
+650	 7	a Regissörer2 sfit
+650	 7	a Biografier2 sfit
+650	 7	a Filmregissörer2 sao0 145007
+650	 0	a Motion picture producers and directors
+651	 4	a Danmark0 142583
+653	 	a Danska dramatiker (prel/S)
+653	 	a Directors
+655	 7	a Biografier2 saogf
+900	1 s	6 600a Von Trier, Lars,d 1956-u Trier, Lars von,d 1956-
+950	 k	6 650a Regissörerw gu Filmregissörer
+950	 k	6 650a Kvinnliga filmregissörerw hu Filmregissörer
+951	 s	6 651a Kungariket Danmarku Danmark
+951	 s	6 651a Kongeriget Danmarku Danmark
