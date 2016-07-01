@@ -17,7 +17,7 @@ bf2:title "Min fantastiska väninna"] ;
  rdf:resource
 [ a bf2:Work, bf2:partNumber "Bok 1", bf2:partName "Barndom och tonår",
 bf2:partOf  bf2:work <http:id.kb.se/verkXXX>,
-bf2:title "Min fantastiska väninna"] #
+bf2:WorkTitle "Min fantastiska väninna"] när använda bf:Collective Title?? #
 
 bf2:languange "swe" ;
 bf2:relatedTo   bf2:expressionOf <http://libris.kb.se/bib/14676300>  @it ;
