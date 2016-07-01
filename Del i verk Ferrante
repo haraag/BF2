@@ -12,6 +12,13 @@
 bf2:partOf  bf2:work <http:id.kb.se/verkXXX>,
 bf2:title "Min fantastiska väninna"] ;
 
+#Variant
+<http://libris.kb.se/bib/18542105>
+ rdf:resource
+[ a bf2:Work, bf2:partNumber "Bok 1", bf2:partName "Barndom och tonår",
+bf2:partOf  bf2:work <http:id.kb.se/verkXXX>,
+bf2:title "Min fantastiska väninna"] #
+
 bf2:languange "swe" ;
 bf2:relatedTo   bf2:expressionOf <http://libris.kb.se/bib/14676300>  @it ;
 ##ha - här borde vi kunna få originalverkets titel - om vi inte kan länka till,
@@ -40,3 +47,28 @@ bf2:provisionActivity [ a bf2:Publication,   bf2:Place "Stockholm" ,
 
 bf2:adminMetadata [a bf2:AdminMetadata bf2:assigner "BOKR", kbv:modifyingAgency "S"]
 bf2:descriptionLanguage "swe"
+
+000		11782cam a2203109 a 4500
+001		18542105
+003		SE-LIBR
+005		20160406165325.0
+008		151016s2016 sw |||| |00| f swe
+020	 	a 9789113061719q inb.
+035	 	a (BOKR)9789113061719
+040	 	a BOKRd S
+041	1 	a sweh ita
+042	 	9 NB
+082	0 4	a 853.9142 23/swe
+084	 	a Hcei.012 kssb/8
+100	1 	a Ferrante, Elena
+240	1 2	a L'amica geniale.l Svenska
+245	1 0	a Min fantastiska väninna.n Bok 1,p Barndom och tonår /c Elena Ferrante ; översättning: Johanna Hedenberg
+260	 	a Stockholm :b Norstedt,c 2016e (Lettland)
+300	 	a 335 s. ;c 22 cm
+500	 	a Första svenska upplaga 2016
+650	 7	a Kvinnlig vänskap2 sao0 166932
+650	 0	a Female friendship
+651	 7	a Italienz Neapel2 sao
+655	 7	a Romaner2 saogf0 389072
+700	1 	a Hedenberg, Johanna,d 1968-4 trl0 355132
+950	 k	6 650a Vänskapw gu Kvinnlig vänskap
