@@ -21,7 +21,7 @@ bf2:genreForm <https://libris.kb.se/vs69hgjd3pskrfq#it> #I posten felaktigt Biog
 bf2:subject  <id.kb.sexxxx/auktposter>  [ a mc:Person , rdfs:label "Trier, Lars von, 1956-"] ;
 bf2:subject rdfs:label "Regissörer"  mc:ConceptScheme " sfit" ;
 bf2:subject rdfs:label "Biografier", mc:ConceptScheme "sfit" ;
-bf2:tsubject rdfs:label "Danska dramatiker (prel/S)",  mc:preliminarySubject
+bf2:subject rdfs:label "Danska dramatiker (prel/S)",  mc:preliminarySubject
 #Ämnesordet läggs i fält 653 a och följs av (prel/[sigel]). Borde kunna
 göras bättre# ;
 bf2:subject rdfs:label "Directors", mc:uncontrolledSubject ;
