@@ -1,0 +1,33 @@
+@prefix bf2: <http://id.loc.gov/ontologies/bibframe.html#>
+@prefix kbv:
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+@prefix rdf:
+@prefix rdavoc: <http://www.rdaregistry.info/>
+@prefix relator: <http://id.loc.gov/vocabulary/relators>
+@prefix mc: <metadatamodelleringgruppens>
+
+<http://libris.kb.se/bib/19076526>
+a bf2: Work
+
+
+
+
+
+
+
+
+
+000		01787cam a22004937a 4500
+001		19076526
+003		SE-LIBR
+005		20160827112807.0
+008		160114s2016 sw |||| |00| f|swe d
+020	 	a 9789176970065q flexband
+035	 	a (BOKR)9789176970065
+040	 	a BOKRd L
+082	0 4	a 839.7382 23/swe
+084	 	a Hc.012 kssb/8
+100	1 	a Sköld, Markus,d 1974-0 350582
+245	1 0	a Kalldrag /c Markus Sköld
+260	 	a [Helsingborg] :b Hoi,c 2016
+300	 	a 316 s. ;c 21 cm
